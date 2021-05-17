@@ -8,7 +8,7 @@ There are 2 versions.
 
 ## How to set up
 
-1. Download this folder's contents where you want to run it (like a hosting platform, or your device)
+1. Download this repository's contents where you want to run it (like a hosting platform, or your device)
 3. Open public/index.html in a browser
 
 ## How to use
