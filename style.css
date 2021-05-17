@@ -1,0 +1,7 @@
+body, input, button, select {
+  font-family: arial, Helvetica, sans-serif;
+  font-size: 36px;
+}
+#feedback {
+  color: darkred;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>cpalms disliker</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    Request type: 
+    <select id="type">
+      <option value="UnLike">Dislike</option>
+      <option value="Like">Like</option>
+    </select><br>
+    Spam interval (in milliseconds): <input id="interval" autocomplete="off" placeholder="must be >200"><br>
+    Cpalms Tutorial: <input autocomplete="off" placeholder="cpalms.org/..." id="link"><br>
+    <button id="go">GO</button> <button id="stop">STOP</button>
+    <br><br>
+    <span id="feedback"></span><br>
+    Like Count: <span id="likes">?</span><br>
+    Requests Sent: <span id="requests">0</span>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
