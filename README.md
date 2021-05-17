@@ -1,6 +1,8 @@
 # CPalms-Spammer-Client
 Spam like/dislike requests to a CPalms resource.
 
+Demo: https://replit.com/@7ih/cpalms-spammer-client
+
 There are 2 versions.
 
 * [Server](https://github.com/7ih/CPalms-Spammer-Server): use server resources to send requests (much more efficient)
