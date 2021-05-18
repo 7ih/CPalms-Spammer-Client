@@ -5,8 +5,8 @@ Demo: https://replit.com/@7ih/cpalms-spammer-client
 
 There are 2 versions.
 
-* [Server](https://github.com/7ih/CPalms-Spammer-Server): use server resources to send requests (much more efficient)
-* Client: use client device resources to send requests (slightly more convenient)
+* Server: use server resources to send requests (much more efficient, easily spam multiple CPalms resources)
+* [Client](https://github.com/7ih/CPalms-Spammer-Client/): use client device resources to send requests (easier to set up)
 
 ## How to set up
 
