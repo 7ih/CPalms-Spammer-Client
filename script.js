@@ -17,7 +17,7 @@ $("go").addEventListener("click", function() {
   var requests = 0;
   var linkDirs = $("link").value.split("/");
   var id = linkDirs[linkDirs.length-1];
-  var link = `https://cors-anywhere.7ih.repl.co/cpalms.org/PreviewResource/LikeResourceVideo?id=${id}&LikeUnlike=${$("type").value}`;
+  var link = `https://www.cors-anywhere.com/cpalms.org/PreviewResource/LikeResourceVideo?id=${id}&LikeUnlike=${$("type").value}`;
   var interval = parseInt($("interval").value);
   if (!interval || interval < 200) interval = 200;
   function sendRequest() {
