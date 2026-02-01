@@ -1,12 +1,19 @@
 # CPalms-Spammer-Client
-Spam like/dislike requests to a CPalms resource.
+Spam like/dislike requests to a [CPalms](https://www.cpalms.org/public/search/Resource) resource (assignment).
 
-Demo: https://replit.com/@7ih/cpalms-spammer-client
+## Explanation
+CPalms is a website for school assignments that I did not like. Fortunately, you can dislike the assignments.
+There used to be assignments with hundreds of thousands of likes, but thanks to this simple program, many assignments got into the negative hundreds of thousands of likes.
+Unfortunately they reset the like count on all the resources. This might not work anymore.
+
 
 There are 2 versions.
 
-* Server: use server resources to send requests (much more efficient, easily spam multiple CPalms resources)
-* [Client](https://github.com/7ih/CPalms-Spammer-Client/): use client device resources to send requests (easier to set up)
+* [Server](https://github.com/7ih/CPalms-Spammer-Server): use server resources to send requests (much more efficient, easily spam multiple CPalms resources)
+* Client: use client device resources to send requests (easier to set up)
+
+## How it works
+Just spams a post request to the dislike url.
 
 ## How to set up
 
@@ -37,7 +44,3 @@ The program then extracts the resource's ID (the numbers at the end of the link)
 There are then two buttons:
 * GO: starts spamming requests with the current resource ID
 * STOP: stops spamming requests with the current resource ID
-
-## Other
-
-The code in this could theoretically be reused for other websites.
